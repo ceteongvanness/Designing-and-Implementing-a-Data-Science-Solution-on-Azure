@@ -97,3 +97,32 @@ Compute instances in Azure Machine Learning provide an easy to manage Python env
    ```
 
 8. Close the Terminal pane.
+
+## Task 3: Use the Azure ML SDK in Visual Studio Codespaces
+
+Now that you have a Python development environment, you can use the Azure Machine Learning SDK in it. First, you need to get the configuration information required to connect to your Azure Machine Learning workspace.
+
+1. In a new browser tab, open the Azure portal at [https://portal.azure.com](https://portal.azure.com/), signing in if necessary.
+2. Open the Azure Machine Learning workspace resource you created in the previous lab, and on its **Overview** page, click **Download config.json** and download the file to your local computer.
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-13.png)
+3. From your local computer, drag the downloaded **config.json** file into the Codespace in your browser, and drop it on the notebook files there. This uploads the config file and opens it in the Codespace editor.
+4. Review the contents of the config.json file, and then close it.
+5. In your codespace, open the **01B - Intro to the Azure ML SDK.ipynb** notebook - this will be loaded in the Jupyter Notebook interface. It may take a while to load the first time the Jupyter Notebooks interface is used, and you may briefly see two panes - one containing the JSON representation of the notebook, and the other containing the notebook visual interface.
+6. When the notebook has loaded, read the notes it contains and run each code cell in turn, just as you did in the Azure Machine Learning Notebook VM Jupyter environment.
+
+## Task 4: Use the Visual Studio Code Azure Machine Learning Extension
+
+If you plan to work with Azure Machine Learning in a Visual Studio codespace (or a local installation of Visual Studio Code), the Azure Machine Learning extension can help make it easier to work with resources in your workspace without needing to switch between your code development environment and the Azure Machine Learning studio web interface.
+
+1. In the Visual Studio codespace interface, click the **Extensions** tab (⊞), and search for "Azure Machine Learning". Then install the **Azure Machine Learning** extension from Microsoft. After the extension has installed, click the **Reload Required** button to reload the environment with the extension.
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-14.png)
+
+2. In the Visual Studio codespace interface, click the **Azure** tab (***Δ***) and in the **Azure Machine Learning** section, expand your subscription and your Azure Machine Learning workspace.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-15.png)
+
+3. Expand **Compute Clusters** and verify that the **aml-cluster** compute resource you created in your workspace is listed along with a **local** compute resource, which in this case represents the hosted codepace environment - you can run Azure Machine Learning code experiments on local compute as well as on compute resources defined in the workspace.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-16.png)
+
+4. Close the Visual Studio codespace browser tab.
