@@ -2,7 +2,7 @@
 **Module 1: Introduction to Azure Machine Learning**
 
 - [Lab 1A: Creating an Azure Machine Learning Workspace](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/Lab01A.md)
-- Lab 1B: Working with Azure Machine Learning Tools
+- [Lab 1B: Working with Azure Machine Learning Tools](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/Lab01B.md)
 
 **Module 2: "No-code" Machine Learning with Designer**
 
