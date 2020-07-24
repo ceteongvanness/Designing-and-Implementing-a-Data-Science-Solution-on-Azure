@@ -64,4 +64,36 @@ Compute instances in Azure Machine Learning provide an easy to manage Python env
 
    ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-8.png)
 
+3. Wait for the codespace to be created. This will open a browser-based instance of Visual Studio Code.
 
+4. Wait for a minute or so while the environment is set up for you. It might look like nothing is happening, but in the background we are installing some extensions that you will use in the labs. You'll see the following things happen:
+
+   - A script pane will open to show status as your codespace is prepared.
+   - The Visual Studio Code interface will be loaded.
+   - The file in this repo will appear in the pane on the left.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-9.png)
+
+5. After setup has completed successfully, you can close the **Creation Log** pane.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-10.png)
+
+   A Visual Studio Codespace is a hosted instance of Visual Studio Code that you can use in a web browser. Visual Studio Code is general code editing environment, with support for various programming languages through the installation of *extensions*. To work with Python, you'll need the Microsoft Python extension, which was installed for you along with some commonly used Python packages when you created this environment from the **DP100** repo.
+
+   The codespace includes an installation of Python(version 3.x), including common packages and support for Jupyter Notebooks within the Visual Studio Code interface. To run code that works with Azure Machine Learning, you just need to install the Azure ML SDK.
+
+6. In the Visual Studio codespace, in the Application Menu (**☰**), on the **View** menu, click **Command Palette** (or press CTRL+SHIFT+P).
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-11.png)
+
+   Then in the Palette, enter the command **Python: Create Terminal**. This opens a Python terminal pane at the bottom of the interface.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1B-12.png)
+
+7. In the terminal pane, enter the following command to install the Azure Machine Learning SDK (with the optional *notebooks* extra package) using this command:
+
+   ```
+   pip install azureml-sdk[notebooks]
+   ```
+
+8. Close the Terminal pane.
