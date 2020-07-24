@@ -61,13 +61,68 @@ One of the benefits of Azure Machine Learning is the ability to create cloud-bas
 
 ## Task 4: Create Data Resources
 
- Now that you have some compute resources that you can use to process data, you'll need a way to store and ingest the data to be processed.
+Now that you have some compute resources that you can use to process data, you'll need a way to store and ingest the data to be processed.
 
-   
+1. In the *Studio* interface, view the **Datastores** page. Your Azure ML workspace already includes two datastores based on the Azure Storage account that was created along with the workspace. These are used to store notebooks, configuration files, and data.
 
-   
+   > **Note**: In the real-world environment, you'd likely add custom datastores that reference your business data stores - for example, Azure blob containers, Azure Data Lakes, Azure SQL Databases, and so on.
 
-   
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-9.png)
 
-   
+2. In the *Studio* interface, view the **Datasets** page. Datasets represent specific data files or tables that you plan to work with in Azure ML.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-10.png)
+
+3. Create a new dataset **from web files**, using the following settings:
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-11.png)
+
+   - **Basic Info**:
+
+     - **Web URL**: https://aka.ms/diabetes-data
+
+     - **Name**: diabetes dataset (*be careful to match the case and spacing*)
+
+     - **Dataset type**: Tabular
+
+     - **Description**: Diabetes data
+
+       ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-12.png)
+
+   - **Settings and preview**:
+
+     - **File format**: Delimited
+
+     - **Encoding**: Comma
+
+     - **Column headers**: Use headers from first file
+
+     - **Skip rows**: None
+
+       ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-13.png)
+
+   - **Schema**:
+
+     - Include all columns other than **Path**
+
+     - Review the automatically detected types
+
+       ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-14.png)
+
+   - **Confirm details**:
+
+     - Do not profile the datasets after creation
+
+       ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-15.png)
+
+       
+
+
+
+
+
+
+
+
+
 
