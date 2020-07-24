@@ -25,7 +25,7 @@ View the Azure Machine Learning studio interface for your workspace - you can ma
 
 ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-5.png)
 
-Task 3: Create Compute Resources
+### Task 3: Create Compute Resources
 
 1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
 
