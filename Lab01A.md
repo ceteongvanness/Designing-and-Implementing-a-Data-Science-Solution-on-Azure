@@ -114,7 +114,9 @@ Now that you have some compute resources that you can use to process data, you'l
      - Do not profile the datasets after creation
 
        ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-15.png)
+4. After the dataset has been created, open it and view the **Explore** page to see a sample of the data. This data represents details from patients who have been tested for diabetes.
 
+![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-16.png)
        
 
 
