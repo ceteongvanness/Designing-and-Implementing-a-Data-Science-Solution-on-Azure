@@ -1,5 +1,5 @@
 # Lab 1A: Creating an Azure Machine Learning Workspace
-#### Task 1: Create an Azure ML Workspace
+### Task 1: Create an Azure ML Workspace
 
 1. Go to https://ml.azure.com, select the **Directory** and **Subscription**.
 
@@ -19,7 +19,7 @@
 
    ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-4.png)
 
-#### Task 2: Explore the Azure ML Studio Interface
+### Task 2: Explore the Azure ML Studio Interface
 
 View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
 
