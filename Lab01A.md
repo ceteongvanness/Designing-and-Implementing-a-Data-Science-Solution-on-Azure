@@ -1,5 +1,7 @@
 # Lab 1A: Creating an Azure Machine Learning Workspace
-### Task 1: Create an Azure ML Workspace
+## Task 1: Create an Azure ML Workspace
+
+As its name suggests, a workspace is a centralized place to manage all of the Azure ML assets you need to work on a machine learning project.
 
 1. Go to https://ml.azure.com, select the **Directory** and **Subscription**.
 
@@ -19,13 +21,17 @@
 
    ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-4.png)
 
-### Task 2: Explore the Azure ML Studio Interface
+## Task 2: Explore the Azure ML Studio Interface
 
-View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
+You can manage workspace assets in the Azure portal, but for data scientists, this tool contains lots of irrelevant information and links that relate to managing general Azure resources. An alternative, Azure ML-specific web interface for managing workspaces is available.
 
-![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-5.png)
+1. View the Azure Machine Learning studio interface for your workspace - you can manage all of the assets in your workspace from here.
 
-### Task 3: Create Compute Resources
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-5.png)
+
+## Task 3: Create Compute Resources
+
+One of the benefits of Azure Machine Learning is the ability to create cloud-based compute on which you can run experiments and training scripts at scale.
 
 1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
 
@@ -53,7 +59,9 @@ View the Azure Machine Learning studio interface for your workspace - you can ma
 
 5. Note the **Attached Compute** tab. This is where you could attach a virtual machine or Databricks cluster that exists outside of your workspace.
 
-   
+## Task 4: Create Data Resources
+
+ Now that you have some compute resources that you can use to process data, you'll need a way to store and ingest the data to be processed.
 
    
 
