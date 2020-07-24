@@ -25,3 +25,41 @@ View the Azure Machine Learning studio interface for your workspace - you can ma
 
 ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-5.png)
 
+Task 3: Create Compute Resources
+
+1. In the Azure Machine Learning studio web interface for your workspace, view the **Compute** page. This is where you'll manage all the compute targets for your data science activities.
+
+   ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-6.png)
+
+2. On the **Compute instances** tab, click on **Create** button to add a new compute instance with the following settings. You'll use this as a workstation from which to test your model:
+
+   - **Compute name**: *enter a unique name*
+   - **Virtual Machine type**: CPU
+   - **Virtual Machine size**: Standard_DS1_v2
+     ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-7.png)
+
+3. While the compute instance is being created, switch to the **Compute Clusters** tab and add a new compute cluster with the following settings. You'll use this to train a machine learning model:
+
+   - **Compute name**: *enter a unique name*
+   - **Virtual Machine type**: CPU
+   - **Virtual Machine priority**: Dedicated
+   - **Virtual Machine size**: Standard_DS2_v2
+   - **Minimum number of nodes**: 0
+   - **Maximum number of nodes**: 2
+   - **Idle seconds before scale down**: 120
+     ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/1A-8.png)
+
+4. Note the **Inference Cluster** tab. This is where you can create and manage compute targets on which to deploy your trained models as web service for client applications to consume.
+
+5. Note the **Attached Compute** tab. This is where you could attach a virtual machine or Databricks cluster that exists outside of your workspace.
+
+   
+
+   
+
+   
+
+   
+
+   
+
