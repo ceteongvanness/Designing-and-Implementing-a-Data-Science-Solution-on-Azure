@@ -87,3 +87,9 @@ While the inference compute is being provisioned, you can prepare the inference 
    ![](https://github.com/ceteongvanness/Designing-and-Implementing-a-Data-Science-Solution-on-Azure/blob/master/images/2B-7.png)
 
 10. **Submit** the pipeline as a new experiment named **predict-diabetes** on the compute cluster you used for training. This may take a while!
+
+## Task 3: Publish a Web Service
+
+Now you have an inference pipeline for real-time inferencing, which you can publish as a web service for client applications to use.
+
+1. Return to the **Compute** page and on the **Inference Compute** tab, refresh the view and verify that your inference cluster has been created. If not, wait for it to be created. This may take quite a bit of time.
