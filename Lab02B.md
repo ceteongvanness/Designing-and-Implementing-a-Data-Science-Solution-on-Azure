@@ -1,4 +1,4 @@
-# Lab 2A: Creating a Training Pipeline with the Azure ML Designer
+# Lab 2B: Deploying a Service with the Azure ML Designer
 
 ## Before You Start
 
